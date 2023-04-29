@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    font-weight: 300;
+    font-size: 24px;
+
+    padding: 15px 20px;
+}
+
+br{
+    color: white;
+}
+
+header h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+header button{
+    margin : 0;
+    font-weight: 300;
+    font-size: 24px;
+
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+main{
+    padding: 30px 20%;
+}
+
+main h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+
+#signUpForm{
+    display: flex;
+    flex-flow: column wrap;  
+    
+    gap: 25px;
+}
+
+#signUpForm input{
+    background-color: black;
+    border: none;
+
+    font-size: 24px;
+    border-bottom: 1px solid white;
+    color: white;
+
+    padding: 10px;
+}
+
+#msgDiv{
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#submitbtn{
+    background-color: white;
+    border: none;
+
+    font-size: 24px;
+
+    padding: 10px 60px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#submitbtn:active{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px
+}

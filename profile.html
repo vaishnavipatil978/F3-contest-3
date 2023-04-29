@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile</title>
+  </head>
+
+  <body >
+    <header>
+      <h1>Header</h1>
+
+      <div>
+        <button onclick="event.preventDefault()">Signup</button>
+        <button onclick="event.preventDefault()">Profile</button>
+      </div>
+    </header>
+
+    <hr>
+
+    <main>
+
+      <h1 class="mainElement">Profile</h1>
+
+      <div>
+        <div id="name" class="mainElement">Full Name :</div>
+        <div id="email" class="mainElement">Email :</div>
+        <div id="password" class="mainElement">Password :</div>
+      </div>
+
+      <button onclick="logOut()" class="mainElement" id="logOutBtn">Logout</button>
+    </main>
+
+    <script src="profile.js"></script>
+  </body>
+</html>

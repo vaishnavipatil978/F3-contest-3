@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    font-weight: 300;
+    font-size: 24px;
+
+    padding: 15px 20px;
+}
+
+br{
+    color: white;
+}
+
+header h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+header button{
+    margin : 0;
+    font-weight: 300;
+    font-size: 24px;
+
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+main{
+    font-weight: 300;
+    font-size: 64px;
+}
+
+main h1{
+    font-size: 64px;
+    margin: 0;
+    font-weight: 400;
+    
+}
+
+.mainElement{
+    margin: 50px 50px;
+}
+
+#logOutBtn{
+    font-size: 24px;
+    padding: 15px 65px;
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#logOutBtn:active{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px
+}

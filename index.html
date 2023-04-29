@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="index_script.css">
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+
+        <div>
+            <button onclick="event.preventDefault()">Signup</button>
+            <button onclick="checkProfile()">Profile</button>
+        </div>
+
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>Signup</h1>
+
+        <form id="signUpForm" onsubmit="event.preventDefault()">
+            <input type="text" placeholder="Full Name" id="name">
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <input type="password" placeholder="Confirm Password" id="password2">
+
+            <div id="msgDiv"></div>
+
+            <div>
+                <button type="submit" id="submitbtn" onclick="submitForm()">Signup</button>
+            </div>
+           
+        </form>
+
+    </main>
+
+    <script src="index_js.js"></script>
+    
+</body>
+</html>
